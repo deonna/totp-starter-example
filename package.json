@@ -8,6 +8,7 @@
     "build": "remix build",
     "dev": "remix dev --manual",
     "start": "remix-serve ./build/index.js",
+    "start-dev": "concurrently \"npm run dev\" \"ngrok http --domain=gull-useful-caiman.ngrok-free.app 3000\"",
     "typecheck": "tsc"
   },
   "dependencies": {
