@@ -18,6 +18,8 @@
     "@remix-run/react": "^2.4.1",
     "@remix-run/router": "^1.14.1",
     "@remix-run/serve": "^2.4.1",
+    "cd": "^0.3.3",
+    "concurrently": "^8.2.2",
     "isbot": "^3.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
